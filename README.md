@@ -1,8 +1,6 @@
 # Reborn XP App Market
 
-Welcome to the official, community-driven App Market for **Reborn XP**, the web-based Windows XP simulator! This repository hosts the application database, icons, and bundles that power the "Quenq App Market" application inside the OS.
-
-**Live App Market:** [https://market.quenq.com](https://market.quenq.com)
+Welcome to the official, community-driven App Distribution Platform for **Reborn XP**, the web-based Windows XP simulator. This repository hosts the application database, icons, and bundles that power the App Market application inside the OS.
 
 ## Table of Contents
 *   [How to Submit a New App](#how-to-submit-a-new-app)
@@ -40,20 +38,20 @@ You must prepare two or three key assets:
 #### `apps_db.json` Entry Template
 All fields are mandatory unless marked optional. All URLs must be absolute paths to `https://market.quenq.com`.
 
-```json
+```
 {
-    "id": "your-app-id",           // A unique, lowercase, no-spaces identifier.
-    "displayName": "Your App Name",  // The name displayed in the market.
-    "author": "Author Name", // Your Name or Company.
+    "id": "your-app-id",                // A unique, lowercase, no-spaces identifier.
+    "displayName": "Your App Name",     // The name displayed in the market.
+    "author": "Author Name",            // Your Name or Company.
     "authorUrl": "https://your-website-or-github.com", // Link to your website or GitHub repository.
     "description": "A brief, engaging description of what your app does.",
-    "version": "1.0",                // The initial version of your app.
-    "category": "Games",             // e.g., "Games", "Multimedia", "Internet", "Utilities" etc.
+    "version": "1.0",                   // The initial version of your app.
+    "category": "Games",                // e.g., "Games", "Multimedia", "Internet", "Utilities" etc.
     "iconUrl": "https://quenq-systems.github.io/app-market/icons/your-app-id.png", // A 100x100 icon for your app.
     "featuredImage": "https://quenq-systems.github.io/app-market/featured/your-app-id.jpg", // Optional, `null` if not used.
-    "featured": false,               // Must be `false`. The maintainers will decide if an app is featured.
+    "featured": false,                  // Must be `false`. The maintainers will decide if an app is featured.
     "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/your-app-id.zip",
-    "fileAssociations": [],          // Optional: file extensions your app can open. e.g., ["csv", "pdf"]
+    "fileAssociations": [],             // Optional: file extensions your app can open. e.g., ["csv", "pdf"]
     "config": {
         "coreJsFilename": "your-app.js" // The name of the main JavaScript entry file inside your bundle.
     }
@@ -79,7 +77,7 @@ To publish an update for an app that is already in the market:
 - **Optimization:** Keep your bundle size as reasonable as possible.
 
 ## For Reborn XP Users
-You can access all the apps listed here by opening the **Start Menu**, clicking **All Programs**, and launching the **Quenq App Market** application inside Reborn XP.
+You can access all the apps listed here by opening the **Start Menu**, clicking **All Programs**, and launching the **App Market** application inside Reborn XP.
 
 ## Licensing and Submission Terms
 
