@@ -1,4 +1,11 @@
+<div align="center">
+
+<img src=".github/logo.png" alt="Reborn XP Logo" width="70" />
+
 # Reborn XP App Market
+
+</div>
+
 
 Welcome to the official, community-driven App Distribution Platform for **Reborn XP**, the web-based Windows XP simulator. This repository hosts the application database, icons, and bundles that power the App Market application inside the OS.
 
@@ -17,7 +24,7 @@ We welcome and encourage developers to submit their own applications to the mark
 Before submitting, you must build and test your application using the official **[Reborn XP SDK](https://github.com/Quenq-Systems/reborn-xp-sdk)**. The SDK provides a complete workflow for developing and testing your app's full installation process, ensuring it will work correctly for end-users.
 
 ### Step 2: Prepare Your Assets
-You must prepare two or three key assets:
+You must prepare these key assets:
 
 1.  **App Bundle (`.zip`):** This is your application's code and assets. The zip bundle **must** contain your files at the root level. **Do not zip the parent folder.**
     *   **Example:** For a project in a folder named `my-game/`, you must open the folder, select all the files inside it (e.g., `app.js`, `index.html`), and create the zip file from those contents.
@@ -36,7 +43,7 @@ You must prepare two or three key assets:
 3.  **Edit `apps_db.json`** and add the JSON object for your application to the end of the array.
 
 #### `apps_db.json` Entry Template
-All fields are mandatory unless marked optional. All URLs must be absolute paths to `https://market.quenq.com`.
+All fields are mandatory unless marked optional. All URLs must be absolute paths to `https://quenq-systems.github.io/app-market/`.
 
 ```
 {
@@ -49,7 +56,7 @@ All fields are mandatory unless marked optional. All URLs must be absolute paths
     "category": "Games",                // e.g., "Games", "Multimedia", "Internet", "Utilities" etc.
     "iconUrl": "https://quenq-systems.github.io/app-market/icons/your-app-id.png", // A 100x100 icon for your app.
     "featuredImage": "https://quenq-systems.github.io/app-market/featured/your-app-id.jpg", // Optional, `null` if not used.
-    "featured": false,                  // Must be `false`. The maintainers will decide if an app is featured.
+    "featured": false,                  // Should be `false`. The maintainers will decide if an app is featured.
     "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/your-app-id.zip",
     "fileAssociations": [],             // Optional: file extensions your app can open. e.g., ["csv", "pdf"]
     "config": {
