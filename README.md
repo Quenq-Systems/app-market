@@ -7,7 +7,7 @@
 </div>
 
 
-Welcome to the official, community-driven App Distribution Platform for **Reborn XP**, the web-based Windows XP simulator. This repository hosts the application database, icons, and bundles that power the App Market application inside the OS.
+Welcome to the official, community-driven App Distribution Platform for [**Reborn XP**](https://xp.quenq.com), the web-based Windows XP simulator. This repository hosts the application database, icons, and bundles that power the App Market application inside the OS.
 
 ## Table of Contents
 *   [How to Submit a New App](#how-to-submit-a-new-app)
@@ -43,7 +43,7 @@ You must prepare these key assets:
 3.  **Edit `apps_db.json`** and add the JSON object for your application to the end of the array.
 
 #### `apps_db.json` Entry Template
-All fields are mandatory unless marked optional. All URLs must be absolute paths to `https://quenq-systems.github.io/app-market/`.
+All fields are mandatory unless marked optional. All URLs must be absolute paths to `https://market.quenq.com/`.
 
 ```
 {
@@ -54,10 +54,10 @@ All fields are mandatory unless marked optional. All URLs must be absolute paths
     "description": "A brief, engaging description of what your app does.",
     "version": "1.0",                   // The initial version of your app.
     "category": "Games",                // e.g., "Games", "Multimedia", "Internet", "Utilities" etc.
-    "iconUrl": "https://quenq-systems.github.io/app-market/icons/your-app-id.png", // A 100x100 icon for your app.
-    "featuredImage": "https://quenq-systems.github.io/app-market/featured/your-app-id.jpg", // Optional, `null` if not used.
+    "iconUrl": "https://market.quenq.com/icons/your-app-id.png", // A 100x100 icon for your app.
+    "featuredImage": "https://market.quenq.com/featured/your-app-id.jpg", // Optional, `null` if not used.
     "featured": false,                  // Should be `false`. The maintainers will decide if an app is featured.
-    "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/your-app-id.zip",
+    "bundleUrl": "https://market.quenq.com/bundles/your-app-id.zip",
     "fileAssociations": [],             // Optional: file extensions your app can open. e.g., ["csv", "pdf"]
     "config": {
         "coreJsFilename": "your-app.js" // The name of the main JavaScript entry file inside your bundle.

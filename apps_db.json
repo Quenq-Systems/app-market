@@ -7,10 +7,10 @@
         "description": "A powerful, standalone code editor with syntax highlighting. The perfect tool for developing new Reborn XP apps directly within the OS.",
         "version": "1.0",
         "category": "Utilities",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/notepad-plus-plus.png",
+        "iconUrl": "https://market.quenq.com/icons/notepad-plus-plus.png",
         "featuredImage": null,
         "featured": false,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/notepad-plus-plus.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/notepad-plus-plus.zip",
         "fileAssociations": ["js", "json", "css", "html"],
         "config": {
             "coreJsFilename": "notepad-plus-plus.js"
@@ -24,10 +24,10 @@
         "description": "Play the classic Quake III Arena! Intense multiplayer action. (Doesn't work on mobile devices.)",
         "version": "1.1",
         "category": "Games",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/quake3.png",
-        "featuredImage": "https://quenq-systems.github.io/app-market/featured/quake3.jpg",
+        "iconUrl": "https://market.quenq.com/icons/quake3.png",
+        "featuredImage": "https://market.quenq.com/featured/quake3.jpg",
         "featured": true,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/quake3.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/quake3.zip",
         "config": {
             "coreJsFilename": "webview-local.js"
         }
@@ -40,10 +40,10 @@
         "description": "Plays SWF animations and games in Reborn XP using the Ruffle emulator.",
         "version": "1.1",
         "category": "Multimedia",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/flashplayer.png",
-        "featuredImage": "https://quenq-systems.github.io/app-market/featured/flashplayer.jpg",
+        "iconUrl": "https://market.quenq.com/icons/flashplayer.png",
+        "featuredImage": "https://market.quenq.com/featured/flashplayer.jpg",
         "featured": true,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/flashplayer.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/flashplayer.zip",
         "fileAssociations": ["swf"],
         "config": {
             "coreJsFilename": "flashplayer.js"
@@ -57,10 +57,10 @@
         "description": "Minecraft is a game about breaking and placing blocks. Eaglecraft is not affiliated with Mojang.",
         "version": "1.8",
         "category": "Games",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/minecraft.png",
-        "featuredImage": "https://quenq-systems.github.io/app-market/featured/minecraft.jpg",
+        "iconUrl": "https://market.quenq.com/icons/minecraft.png",
+        "featuredImage": "https://market.quenq.com/featured/minecraft.jpg",
         "featured": true,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/minecraft.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/minecraft.zip",
         "config": {
             "coreJsFilename": "webview-local.js"
         }
@@ -73,10 +73,10 @@
         "description": "The game featured the first five episodes of the classic game, exclusive episodes, and modified Angry Birds Seasons content: Season's Greedings (with four bonus levels), Cherry Blossom, Easter Eggs, Summer Pignic, and Moon Festival. Angry Birds Chrome was the second game to use redesigns of The Flock and the first for the Bad Piggies. It is restored and modded for Reborn XP, with the Mighty Eagle free instead of $0.99.",
         "version": "1.0",
         "category": "Games",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/angry-birds.png",
+        "iconUrl": "https://market.quenq.com/icons/angry-birds.png",
         "featuredImage": null,
         "featured": false,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/angry-birds.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/angry-birds.zip",
         "config": {
             "coreJsFilename": "webview-local.js"
         }
@@ -89,10 +89,10 @@
         "description": "DeadShot.io is an online first-person shooter game that offers a unique blend of fast-paced action and strategic gameplay.",
         "version": "1.0",
         "category": "Games",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/deadshot.png",
+        "iconUrl": "https://market.quenq.com/icons/deadshot.png",
         "featuredImage": null,
         "featured": false,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/deadshot.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/deadshot.zip",
         "config": {
             "coreJsFilename": "webview-external.js"
         }
@@ -105,10 +105,10 @@
         "description": "Rammerhead allows you to visit any blocked website in Reborn XP without restrictions. May not support all sites, the best way is to download the Reborn XP official app on Windows/Android which can load any site in Internet Explorer.",
         "version": "1.0",
         "category": "Internet",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/rammerhead.png",
+        "iconUrl": "https://market.quenq.com/icons/rammerhead.png",
         "featuredImage": null,
         "featured": false,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/rammerhead.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/rammerhead.zip",
         "config": {
             "coreJsFilename": "webview-external.js"
         }
@@ -121,10 +121,10 @@
         "description": "Bubble Trouble is an arcade game where you pop bouncing bubbles with a harpoon. Made in 2002 by Kresimir Cvitanovic (Kreso), you can still play the original on Reborn XP.",
         "version": "1.0",
         "category": "Games",
-        "iconUrl": "https://quenq-systems.github.io/app-market/icons/bubble-trouble.png",
+        "iconUrl": "https://market.quenq.com/icons/bubble-trouble.png",
         "featuredImage": null,
         "featured": false,
-        "bundleUrl": "https://quenq-systems.github.io/app-market/bundles/bubble-trouble.zip",
+        "bundleUrl": "https://market.quenq.com/bundles/bubble-trouble.zip",
         "config": {
             "coreJsFilename": "swf-wrapper.js"
         }
