@@ -128,5 +128,21 @@
         "config": {
             "coreJsFilename": "swf-wrapper.js"
         }
+    },
+    {
+    "id": "lucasscape-navigator",
+    "displayName": "LucasScape Navigator",
+    "author": "Metal Guy",
+    "authorUrl": "https://github.com/metalguy-web/LucasScape-Navigator",
+    "description": "LucasScape Navigator is an internet like Netscape Navigator 3.0 web browser app in Back's to 1996. Made in 2025 by Metal Guy",
+    "version": "1.0",
+    "category": "Internet",
+    "iconUrl": "https://market.quenq.com/icons/lucasscape-navigator.png",
+    "featuredImage": "https://market.quenq.com/featured/lucasscape-navigator.jpg",
+    "featured": false,
+    "bundleUrl": "https://market.quenq.com/bundles/lucasscape-navigator.zip",
+    "config": {
+        "coreJsFilename": "webview-local.js"
     }
+}
 ]
