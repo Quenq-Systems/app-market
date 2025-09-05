@@ -41,8 +41,8 @@
         "version": "1.1",
         "category": "Multimedia",
         "iconUrl": "https://market.quenq.com/icons/flashplayer.png",
-        "featuredImage": "https://market.quenq.com/featured/flashplayer.jpg",
-        "featured": true,
+        "featuredImage": null,
+        "featured": false,
         "bundleUrl": "https://market.quenq.com/bundles/flashplayer.zip",
         "fileAssociations": ["swf"],
         "config": {
