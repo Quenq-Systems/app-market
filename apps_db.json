@@ -44,6 +44,20 @@
         }
     },
     {
+        "id": "win11simu",
+        "displayName": "Windows 11 Simulator",
+        "author": "Alaricholt677",
+        "authorUrl": "https://alaricholt677.github.io/moreOS/Win11.html",
+        "description": "Windows 11 Simulator is a Simulator to Simulate the Windows 11 OS Enviroment Inside your Phone, Tablet, or PC.",
+        "version": "26H7",
+        "category": "Utilities",
+        "iconUrl": "https://market.quenq.com/icons/win11.png",
+        "bundleUrl": "https://market.quenq.com/bundles/Windows 11 Simulator.zip",
+        "config": {
+            "coreJsFilename": "webview-local.js"
+        }
+    },
+    {
         "id": "deadshot",
         "displayName": "Deadshot",
         "author": "Deadshot.io",
