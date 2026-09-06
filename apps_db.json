@@ -142,6 +142,20 @@
         }
     },
     {
+        "id": "gta-iii",
+        "displayName": "GTA III",
+        "author": "Rockstar Games",
+        "authorUrl": "https://www.rockstargames.com/",
+        "description": "GTA III is a classic open-world action-adventure game that takes place in the fictional Liberty City. Players can explore the city, complete missions, and engage in various criminal activities. This version is a faithful recreation for Reborn XP.",
+        "version": "1.0",
+        "category": "Games",
+        "iconUrl": "https://market.quenq.com/icons/gta-iii.png",
+        "bundleUrl": "https://market.quenq.com/bundles/gta-iii.zip",
+        "config": {
+            "coreJsFilename": "webview-external.js"
+        }
+    },
+    {
         "id": "chatango",
         "displayName": "Chatango",
         "author": "Chatango",
